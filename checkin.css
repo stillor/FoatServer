@@ -1,0 +1,118 @@
+body{
+	height:auto;
+	}
+
+.clear{
+	clear: both;
+
+}
+.r{
+    right: 2%;
+    width: auto;
+	height:40px;
+	position: relative;
+    top:-30px;
+    z-index:1;
+    color:#222;
+}
+
+.text{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.context1{
+	width: 100%;
+	height:100%;
+  position: relative;
+}
+
+.title1{
+	text-align:center;
+	font-size:30px;
+}
+
+.tbody1{
+	width: 80%;
+	height:80%;
+	position: relative;
+	top: 10px;
+	left:10%;
+}
+
+tr{
+	height:150px;
+}
+
+td{
+
+	width:20%;
+	text-align:center;
+  border: 2px solid #222;
+  font-size: 20px;
+}
+
+.stateType{
+	height:300px;
+	width:20%;
+	background-color:#222;
+	position: relative;
+	left:40%;
+	top:-250px;
+	}
+	
+.title2{
+	height:50px;
+	width:95%;
+	background-color:white;
+	position: relative;
+	left:2.5%;
+	top:10px;
+	text-align:center;
+	font-size:30px;
+	}
+	
+.radio-box{
+	height:170px;
+	width:95%;
+	background-color:white;
+	position: relative;
+	left:2.5%;
+	top:10px;
+	text-align:center;
+	font-size:30px;
+}
+	
+.eventButton{
+	height:40px;
+	width:95%;
+	background-color:white;
+	position: relative;
+	left:2.5%;
+	top:30px;
+	text-align:center;
+	font-size:30px;
+}
+
+.okay{
+  height:40px;
+	width:50%;
+	background-color:white;
+	position: relative;
+	left:0%;
+	top:-10px;
+	text-align:center;
+	font-size:30px;
+}
+	
+.reset{
+	height:40px;
+	width:50%;
+	background-color:white;
+	position: relative;
+	left:50%;
+	top:-50px;
+	text-align:center;
+	font-size:30px;
+}

@@ -1,0 +1,116 @@
+body{
+	height:900px;
+	}
+
+.clear{
+	clear: both;
+
+}
+.r{
+    right: 2%;
+    width: auto;
+	height:40px;
+	position: relative;
+    top:-30px;
+    z-index:1;
+    color:#0ff;
+}
+
+.text{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.wenzi1{
+	background-color:white;
+	height: 20%;
+	width: 80%;
+	left: 10%;
+	top: -61%;
+	position: relative;
+	}
+	.wenzi2{
+	background-color:#222;
+	height: 61.5%;
+	width: 80%;
+	left: 10%;
+	top: 0%;
+	position: relative;
+	}
+
+ .textpos1{
+	left: 10%;
+	top: 10%;
+	position: relative;
+	}
+
+	.textpos2{
+	left: 25%;
+	top: -18%;
+	position: relative;
+	color:#222; font-size:30px;
+	}
+	
+	.textpos3{
+	left: 48%;
+	top: -10%;
+	position: relative;
+	color:#222; font-size:50px;
+	}
+
+.all1{
+	background-color:white;
+	height: 40%;
+	width: 80%;
+	left: 10%;
+	top: -60.5%;
+	position: relative;
+}
+
+.a1{
+	background-color:#ff3334;
+	height: 80%;
+	width: 20%;
+	left:4%;
+	top: 10%;
+	position: relative;
+}
+
+.b1{
+	background-color:#fcc347;
+	height: 80%;
+	width: 20%;
+	left:28%;
+	top:-70%;
+	position: relative;
+}
+.c1{
+	background-color:#447dd6;
+	height: 80%;
+	width: 20%;
+	left:52%;
+	top:-150%;
+	position: relative;
+}
+.d1{
+	background-color:#21b07b;
+	height: 80%;
+	width: 20%;
+	left:76%;
+	top:-230%;
+	position: relative;
+}
+
+.footer1{
+	width: 100%;
+	height:auto;
+	position: relative;
+    top:-50%;
+	background-color: white;
+}
+
+.footertext{
+	text-align:center;
+	}
+

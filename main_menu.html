@@ -1,0 +1,139 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>FOAT课程管理</title>
+	<link rel="stylesheet" type="text/css" href="style/calendar.css">
+  <script src="Lib/core.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+</script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="static/h-ui/css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/bootstrapSwitch/bootstrapSwitch.css" rel="stylesheet" type="text/css" />
+<link href="lib/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="main_menu.css">
+<!--[if IE 7]>
+<link href="lib/font-awesome/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="lib/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="zxmk.css" rel="stylesheet" type="text/css"/>
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+</head>
+<body>
+	<div>
+<nav class="mainnav cl">
+  <ul class="cl">
+    <li class="current"><a href="process?action=showPage&page=main_menu.html">FOAT</a></li>
+    <li><a href="process?action=editCourse">课程修改</a></li>
+    <li><a href="process?action=editClass">班级修改</a></li>
+    <li><a href="process?action=editTeacher">老师修改</a></li>
+    <li><a href="process?action=editStudent">学生修改</a></li>
+  </ul>
+</nav>
+<div class="r"><a class="text" href="process?action=editBasic">欢迎您，管理员 |</a><a class="text" href="process?action=logout">注销</a> </div>
+
+ </div>
+<div class="clear"></div>
+
+<div class="wenzi2"></div>
+<div class="wenzi1">
+	<p class="textpos1"><img src="img/logo.png"></p>
+	<p class="textpos2"><B>教学管理端</B></p>
+	<p class="textpos3"><B>为您提供便捷的管理服务</B></p>
+	
+	
+	</div>
+<div class="all1">
+	
+<div class="index-con" style="z-index: 0">
+
+<div class="a1">
+<div class="in-kct"> <a href="process?action=showPage&page=addNewCourse.jsp" title="课程">
+      <div class="in-block"><span class="ch show" style="display: block;"><img src="img/1.png"></span> <i class="in-none"></i> <span class="in-text" style="display: none;">
+        <p><em>课程</em>&nbsp;&nbsp;添加 </p>
+       
+        </span> </div>
+      </a> 
+</div>
+</div>
+
+<div class="b1">
+<div class="in-kct"> <a href="process?action=showPage&page=addNewTeacher.jsp" title="教师">
+      <div class="in-block"><span class="ch show" style="display: block;"><img src="img/2.png"></span><i class="in-none"></i> <span class="in-text" style="display: none;">
+        <p><em>教师</em>&nbsp;&nbsp;添加 </p>
+       
+        </span> </div>
+      </a> 
+</div>
+</div>
+
+<div class="c1">
+<div class="in-kct"> <a href="process?action=showPage&page=addNewClass.jsp" title="班级">
+      <div class="in-block"><span class="ch show" style="display: block;"><img src="img/3.png"></span> <i class="in-none"></i> <span class="in-text" style="display: none;">
+        <p><em>班级</em>&nbsp;&nbsp;添加 </p>
+       
+        </span> </div>
+      </a> 
+</div>
+</div>
+
+<div class="d1">
+<div class="in-kct"> <a href="process?action=showPage&page=addNewStudent.jsp" title="学生">
+      <div class="in-block"><span class="ch show" style="display: block;"><img src="img/4.png"></span> <i class="in-none"></i> <span class="in-text" style="display: none;">
+        <p><em>学生</em>&nbsp;&nbsp;添加 </p>
+       
+        </span> </div>
+      </a> 
+</div>
+</div>
+
+</div>
+
+</div>
+
+<script>
+    seajs.use('jquery',function($) {
+        $(function () {
+             //
+            $(".index-con .in-kct").hover(function() {
+                $(this).find('i:first').addClass('smaller').removeClass('bigger')
+                $(this).find('span:first').fadeOut('')
+                $(this).find('.in-text').show('fast').addClass('show')
+                $(this).find('.ch').removeClass('')
+            }, function() {
+                $(this).find('i:first').removeClass('smaller').addClass('bigger')
+                $(this).find('span:first').fadeIn('')
+                $(this).find('.in-text').hide('').removeClass('fast')
+                $(this).find('.ch').addClass('show')
+            })
+            $(".index-con .in-jbk").hover(function() {
+                $(this).find('i:first').addClass('smaller').removeClass('bigger')
+                $(this).find('span:first').fadeOut('')
+                $(this).find('.in-text').show('fast').addClass('show')
+                $(this).find('.ch').removeClass('')
+            }, function() {
+                $(this).find('i:first').removeClass('smaller').addClass('bigger')
+                $(this).find('span:first').fadeIn('')
+                $(this).find('.in-text').hide('').removeClass('fast')
+                $(this).find('.ch').addClass('show')
+            })
+            
+        });
+    })
+</script>
+
+
+  <div class="footer1">
+	<p class="footertext">.FOAT小组制作</p>
+  </div> 
+
+</body>

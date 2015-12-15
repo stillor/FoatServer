@@ -1,0 +1,19 @@
+.clear{
+	clear: both;
+
+}
+.r{
+    right: 2%;
+    width: auto;
+	height:40px;
+	position: relative;
+    top:-30px;
+    z-index:1;
+    color:#0ff;
+}
+
+.text{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}

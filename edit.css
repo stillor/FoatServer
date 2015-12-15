@@ -1,0 +1,42 @@
+html, body{ margin:0; height:100%; }
+
+.clear{
+	clear: both;
+
+}
+
+
+
+.table{
+	height: 70%;
+	min-height: 400px;
+	width: 50%
+	position: relative;
+	top: -40px;
+	background-color: white;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.search{
+	width: 100%;
+	height:auto;
+	position: relative;
+    top:0px;
+}
+
+.r{
+    right: 2%;
+    width: auto;
+	height:40px;
+	position: relative;
+    top:-30px;
+    z-index:1;
+    color:#0ff;
+}
+
+.text{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+}
